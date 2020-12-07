@@ -33,56 +33,7 @@
     <!-- Main wrapper - style you can find in pages.scss -->
     <!-- ============================================================== -->
     <div id="main-wrapper">
-        <!-- ============================================================== -->
-        <!-- Top header  -->
-        <!-- ============================================================== -->
-        <div class="topbar" id="top">
-            <div class="header6">
-                <div class="container po-relative">
-                    <nav class="navbar navbar-expand-lg h6-nav-bar">
-                        <a href="index.html" class="navbar-brand"><img src="images/logos/bpm-white-small.png"
-                                alt="wrapkit" /></a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#h6-info"
-                            aria-controls="h6-info" aria-expanded="false" aria-label="Toggle navigation"><span
-                                class="ti-menu"></span></button>
-                        <div class="collapse navbar-collapse hover-dropdown font-14 ml-auto" id="h6-info">
-                            <ul class="navbar-nav ml-auto">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#section">
-                                        Équipe
-                                    </a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link" href="elements.html#element">
-                                        Évènements
-                                    </a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link" href="elements.html#element">
-                                        Matériel
-                                    </a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link" href="elements.html#element">
-                                        Galerie
-                                    </a>
-                                </li>
-                            </ul>
-                            <div class="act-buttons">
-                                <a href="https://wrappixel.com/templates/wrapkit/"
-                                    class="btn btn-danger-gradiant font-14">Nous contacter</a>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-        <!-- ============================================================== -->
-        <!-- Top header  -->
-        <!-- ============================================================== -->
+        <?php include("header.php"); ?>
         <!-- ============================================================== -->
         <!-- Page wrapper  -->
         <!-- ============================================================== -->
@@ -94,21 +45,16 @@
                 <!-- ============================================================== -->
                 <!-- Static Slider 10  -->
                 <!-- ============================================================== -->
-                <div class="static-slider-head"
-                    style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/platines.jpg'); background-size: cover;">
+                <div class="static-slider-head" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/platines.jpg'); background-size: cover;">
                     <div class="container">
                         <!-- Row  -->
                         <div class="row justify-content-center">
                             <!-- Column -->
-                            <div class="col-lg-8 col-md-6 align-self-center text-center" data-aos="fade-up"
-                                data-aos-duration="1200">
+                            <div class="col-lg-8 col-md-6 align-self-center text-center" data-aos="fade-up" data-aos-duration="1200">
                                 <h1 class="title">BPM Club Sono</h1>
                                 <h4 class="subtitle font-light">Prestations professionnelles pour tout type d'évènement
                                 </h4>
-                                <a href="https://wrappixel.com/templates/wrapkit-lite/"
-                                    class="btn btn-outline-light m-r-20 btn-md m-t-30 font-14">En savoir plus</a><a
-                                    href="https://wrappixel.com/templates/wrapkit/"
-                                    class="btn btn-md m-t-30 btn-danger-gradiant font-14">Nous contacter</a>
+                                <a href="https://wrappixel.com/templates/wrapkit-lite/" class="btn btn-outline-light m-r-20 btn-md m-t-30 font-14">En savoir plus</a><a href="https://wrappixel.com/templates/wrapkit/" class="btn btn-md m-t-30 btn-danger-gradiant font-14">Nous contacter</a>
                             </div>
                             <!-- Column -->
                         </div>
@@ -150,8 +96,7 @@
                             <!-- Column -->
                             <div class="col-md-4">
                                 <div class="card card-shadow" data-aos="flip-left" data-aos-duration="1200">
-                                    <a href="#" class="img-ho"><img class="card-img-top" src="images/portfolio/img1.jpg"
-                                            alt="wrappixel kit" /></a>
+                                    <a href="#" class="img-ho"><img class="card-img-top" src="images/portfolio/img1.jpg" alt="wrappixel kit" /></a>
                                     <div class="card-body">
                                         <h5 class="font-medium m-b-0">Son</h5>
                                         <p class="m-b-0 font-14">Des enceintes au platine, laissez BPM s'occuper de la
@@ -162,8 +107,7 @@
                             <!-- Column -->
                             <div class="col-md-4">
                                 <div class="card card-shadow" data-aos="flip-up" data-aos-duration="1200">
-                                    <a href="#" class="img-ho"><img class="card-img-top" src="images/portfolio/img2.jpg"
-                                            alt="wrappixel kit" /></a>
+                                    <a href="#" class="img-ho"><img class="card-img-top" src="images/portfolio/img2.jpg" alt="wrappixel kit" /></a>
                                     <div class="card-body">
                                         <h5 class="font-medium m-b-0">Lumière</h5>
                                         <p class="m-b-0 font-14">Impressionnez vos convives avec des lumières adaptées à
@@ -174,8 +118,7 @@
                             <!-- Column -->
                             <div class="col-md-4">
                                 <div class="card card-shadow" data-aos="flip-right" data-aos-duration="1200">
-                                    <a href="#" class="img-ho"><img class="card-img-top" src="images/portfolio/img3.jpg"
-                                            alt="wrappixel kit" /></a>
+                                    <a href="#" class="img-ho"><img class="card-img-top" src="images/portfolio/img3.jpg" alt="wrappixel kit" /></a>
                                     <div class="card-body">
                                         <h5 class="font-medium m-b-0">Structure</h5>
                                         <p class="m-b-0 font-14">BPM propose des installations fiables et adaptées à
@@ -186,8 +129,7 @@
                             <!-- Column -->
                             <div class="col-md-4">
                                 <div class="card card-shadow" data-aos="flip-left" data-aos-duration="1200">
-                                    <a href="#" class="img-ho"><img class="card-img-top" src="images/portfolio/img4.jpg"
-                                            alt="wrappixel kit" /></a>
+                                    <a href="#" class="img-ho"><img class="card-img-top" src="images/portfolio/img4.jpg" alt="wrappixel kit" /></a>
                                     <div class="card-body">
                                         <h5 class="font-medium m-b-0">Prestations</h5>
                                         <p class="m-b-0 font-14">Nos DJs et experts en lights sauront répondre à vos
@@ -198,8 +140,7 @@
                             <!-- Column -->
                             <div class="col-md-4">
                                 <div class="card card-shadow" data-aos="flip-up" data-aos-duration="1200">
-                                    <a href="#" class="img-ho"><img class="card-img-top" src="images/portfolio/img5.jpg"
-                                            alt="wrappixel kit" /></a>
+                                    <a href="#" class="img-ho"><img class="card-img-top" src="images/portfolio/img5.jpg" alt="wrappixel kit" /></a>
                                     <div class="card-body">
                                         <h5 class="font-medium m-b-0">Vidéo</h5>
                                         <p class="m-b-0 font-14">Visuels, mappings, aftermovies... De quoi faire
@@ -210,11 +151,9 @@
                             <!-- Column -->
                             <div class="col-md-4">
                                 <div class="card card-shadow" data-aos="flip-right" data-aos-duration="1200">
-                                    <a href="#" class="img-ho"><img class="card-img-top" src="images/portfolio/img6.jpg"
-                                            alt="wrappixel kit" /></a>
+                                    <a href="#" class="img-ho"><img class="card-img-top" src="images/portfolio/img6.jpg" alt="wrappixel kit" /></a>
                                     <div class="card-body">
-                                        <h5 class="font-medium m-b-0">Production <span
-                                                class="label label-inverse">Nouveau !</span></h5>
+                                        <h5 class="font-medium m-b-0">Production <span class="label label-inverse">Nouveau !</span></h5>
                                         <p class="m-b-0 font-14">Besoin d'une instru ou d'une compo originale ? Le pôle
                                             Prod BPM pourra vous aider</p>
                                     </div>
@@ -248,8 +187,7 @@
                                             parturient montes, nascetur ridiculus mus. Cras venene veliel vestibulum.”
                                         </h6>
                                         <div class="d-flex no-block align-items-center">
-                                            <span class="thumb-img"><img src="images/testimonial/1.jpg" alt="wrapkit"
-                                                    class="circle" /></span>
+                                            <span class="thumb-img"><img src="images/testimonial/1.jpg" alt="wrapkit" class="circle" /></span>
                                             <div class="m-l-20">
                                                 <h6 class="m-b-0 customer">Michelle Anderson</h6>
                                                 <div class="font-10">
@@ -273,8 +211,7 @@
                                             parturient montes, nascetur ridiculus mus. Cras venene veliel vestibulum.”
                                         </h6>
                                         <div class="d-flex no-block align-items-center">
-                                            <span class="thumb-img"><img src="images/testimonial/2.jpg" alt="wrapkit"
-                                                    class="circle" /></span>
+                                            <span class="thumb-img"><img src="images/testimonial/2.jpg" alt="wrapkit" class="circle" /></span>
                                             <div class="m-l-20">
                                                 <h6 class="m-b-0 customer">Mark mesty</h6>
                                                 <div class="font-10">
@@ -298,8 +235,7 @@
                                             parturient montes, nascetur ridiculus mus. Cras venene veliel vestibulum.”
                                         </h6>
                                         <div class="d-flex no-block align-items-center">
-                                            <span class="thumb-img"><img src="images/testimonial/3.jpg" alt="wrapkit"
-                                                    class="circle" /></span>
+                                            <span class="thumb-img"><img src="images/testimonial/3.jpg" alt="wrapkit" class="circle" /></span>
                                             <div class="m-l-20">
                                                 <h6 class="m-b-0 customer">Limpsy adam</h6>
                                                 <div class="font-10">
@@ -328,9 +264,7 @@
                 <div class="contact1">
                     <div class="row">
                         <div class="col-md-12">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2637.2034760977285!2d2.440462565869501!3d48.62508822505884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e5e0a5d2f714cf%3A0x605689a3662a266!2s9%20Rue%20Charles%20Fourier%2C%2091000%20%C3%89vry-Courcouronnes!5e0!3m2!1sfr!2sfr!4v1606129863774!5m2!1sfr!2sfr"
-                                width="100%" height="450" frameborder="0" style="border:0"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2637.2034760977285!2d2.440462565869501!3d48.62508822505884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e5e0a5d2f714cf%3A0x605689a3662a266!2s9%20Rue%20Charles%20Fourier%2C%2091000%20%C3%89vry-Courcouronnes!5e0!3m2!1sfr!2sfr!4v1606129863774!5m2!1sfr!2sfr" width="100%" height="450" frameborder="0" style="border:0"></iframe>
                         </div>
                         <div class="container">
                             <div class="spacer">
@@ -347,19 +281,16 @@
                                                     </div>
                                                     <div class="col-lg-6">
                                                         <div class="form-group m-t-15">
-                                                            <input class="form-control" type="text"
-                                                                placeholder="Adresse mail">
+                                                            <input class="form-control" type="text" placeholder="Adresse mail">
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="form-group m-t-15">
-                                                            <textarea class="form-control" rows="3"
-                                                                placeholder="Message"></textarea>
+                                                            <textarea class="form-control" rows="3" placeholder="Message"></textarea>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
-                                                        <button type="submit"
-                                                            class="btn btn-danger-gradiant m-t-20 btn-arrow"><span>
+                                                        <button type="submit" class="btn btn-danger-gradiant m-t-20 btn-arrow"><span>
                                                                 ENVOYER <i class="ti-arrow-right"></i></span></button>
                                                     </div>
                                                 </div>
@@ -367,8 +298,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-4">
-                                        <div class="detail-box p-40 bg-info" data-aos="fade-right"
-                                            data-aos-duration="1200">
+                                        <div class="detail-box p-40 bg-info" data-aos="fade-right" data-aos-duration="1200">
                                             <h2 class="text-white">BPM Club Sono</h2>
                                             <p class="text-white m-t-30 op-8"><strong>Président</strong> : <br>Valentin
                                                 Bailleul
@@ -398,52 +328,7 @@
         <!-- ============================================================== -->
         <!-- End Page wrapper  -->
         <!-- ============================================================== -->
-        <!-- ============================================================== -->
-        <!-- footer -->
-        <!-- ============================================================== -->
-        <div class="footer4 b-t spacer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 m-b-30">
-                        <h5 class="m-b-20">Adresse</h5>
-                        <p>9 rue Charles Fourier <br>91000 Evry-Courcouronnes</p>
-                    </div>
-                    <div class="col-lg-3 col-md-6 m-b-30">
-                        <h5 class="m-b-20">Téléphone</h5>
-                        <p>+33 6 70 74 33 66</p>
-                    </div>
-                    <div class="col-lg-3 col-md-6 m-b-30">
-                        <h5 class="m-b-20">Email</h5>
-                        <p>BPM : <a href="#" class="link">bpmclubsono@gmail.com</a> <br />Président : <a href="#"
-                                class="link">valentin.bailleul@telecom-sudparis.eu</a></p>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <h5 class="m-b-20">Social</h5>
-                        <div class="round-social light">
-                            <a href="#" class="link"><i class="fa fa-facebook"></i></a>
-                            <a href="#" class="link"><i class="fa fa-twitter"></i></a>
-                            <a href="#" class="link"><i class="fa fa-youtube-play"></i></a>
-                            <a href="#" class="link"><i class="fa fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="f4-bottom-bar">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="d-flex font-14">
-                                <div class="m-t-10 m-b-10 copyright">© 2020, BPM Club Sono.</div>
-                                <div class="links ml-auto m-t-10 m-b-10">
-                                    <a href="#" class="p-10 p-l-0">Mentions légales</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- ============================================================== -->
-        <!-- End footer -->
-        <!-- ============================================================== -->
+        <?php include("footer.php"); ?>
     </div>
     <!-- ============================================================== -->
     <!-- End Wrapper -->
@@ -462,7 +347,6 @@
     <!-- This page plugins -->
     <!-- ============================================================== -->
     <script type="text/javascript">
-
         $('a').on('click', function(event) {
             var $anchor = $(this);
             $('html, body').stop().animate({
