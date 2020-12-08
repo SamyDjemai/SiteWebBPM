@@ -33,7 +33,7 @@
     <!-- Main wrapper - style you can find in pages.scss -->
     <!-- ============================================================== -->
     <div id="main-wrapper">
-        <?php include("header.php"); ?>
+        <?php include("components/header.php"); ?>
         <!-- ============================================================== -->
         <!-- Page wrapper  -->
         <!-- ============================================================== -->
@@ -54,7 +54,8 @@
                                 <h1 class="title">BPM Club Sono</h1>
                                 <h4 class="subtitle font-light">Prestations professionnelles pour tout type d'évènement
                                 </h4>
-                                <a href="https://wrappixel.com/templates/wrapkit-lite/" class="btn btn-outline-light m-r-20 btn-md m-t-30 font-14">En savoir plus</a><a href="https://wrappixel.com/templates/wrapkit/" class="btn btn-md m-t-30 btn-danger-gradiant font-14">Nous contacter</a>
+                                <a href="#learn-more" class="btn btn-outline-light m-r-20 btn-md m-t-30 font-14">En savoir plus</a>
+                                <a href="#contact" class="btn btn-md m-t-30 btn-danger-gradiant font-14">Nous contacter</a>
                             </div>
                             <!-- Column -->
                         </div>
@@ -70,15 +71,15 @@
                 <div class="spacer">
                     <div class="container">
                         <div class="row justify-content-center">
-                            <div class="col-md-7 text-center">
+                            <div class="col-md-7 text-center" id="learn-more">
                                 <h1 class="title font-bold">Qui sommes-nous ?</h1>
-                                <h4 class="subtitle font-dark">Créé en 2004, BPM Club Sono est un club affilié au BDE de
+                                <h6 class="subtitle font-dark">Créé en 2004, BPM Club Sono est un club affilié au BDE de
                                     Télécom
                                     SudParis/IMT-BS responsable du montage de structures ambitieuses pour toutes les
                                     soirées dans l'école ainsi que la mise en place du son, des lumières et la gestion
                                     des DJs qui font partie intégrante du Club. BPM ne se limite pas seulement au cadre
                                     de notre campus. En effet, de nombreux évènements sont réalisés partout en France :
-                                    Techno Parade, mariages...</h4>
+                                    Techno Parade, mariages...</h6>
                             </div>
                         </div>
                     </div>
@@ -172,9 +173,8 @@
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-md-7 text-center">
-                                <h2 class="title">Check what our Customers are Saying</h2>
-                                <h6 class="subtitle">You can relay on our amazing features list and also our customer
-                                    services will be great experience for you without doubt and in no-time</h6>
+                                <h2 class="title">Des clients satisfaits</h2>
+                                <h6 class="subtitle">Voici quelques témoignages de clients pour lesquels nous avons réalisé des prestations.</h6>
                             </div>
                         </div>
                         <!-- Row  -->
@@ -189,7 +189,8 @@
                                         <div class="d-flex no-block align-items-center">
                                             <span class="thumb-img"><img src="images/testimonial/1.jpg" alt="wrapkit" class="circle" /></span>
                                             <div class="m-l-20">
-                                                <h6 class="m-b-0 customer">Michelle Anderson</h6>
+                                                <h6 class="m-b-0 customer">Bureau des élèves TMSP</h6>
+                                                <!--
                                                 <div class="font-10">
                                                     <a href="" class="text-success"><i class="fa fa-star"></i></a>
                                                     <a href="" class="text-success"><i class="fa fa-star"></i></a>
@@ -197,6 +198,7 @@
                                                     <a href="" class="text-success"><i class="fa fa-star"></i></a>
                                                     <a href="" class="text-muted"><i class="fa fa-star"></i></a>
                                                 </div>
+                                                -->
                                             </div>
                                         </div>
                                     </div>
@@ -214,6 +216,7 @@
                                             <span class="thumb-img"><img src="images/testimonial/2.jpg" alt="wrapkit" class="circle" /></span>
                                             <div class="m-l-20">
                                                 <h6 class="m-b-0 customer">Mark mesty</h6>
+                                                <!--
                                                 <div class="font-10">
                                                     <a href="" class="text-success"><i class="fa fa-star"></i></a>
                                                     <a href="" class="text-success"><i class="fa fa-star"></i></a>
@@ -221,6 +224,7 @@
                                                     <a href="" class="text-success"><i class="fa fa-star"></i></a>
                                                     <a href="" class="text-muted"><i class="fa fa-star"></i></a>
                                                 </div>
+    -->
                                             </div>
                                         </div>
                                     </div>
@@ -238,6 +242,7 @@
                                             <span class="thumb-img"><img src="images/testimonial/3.jpg" alt="wrapkit" class="circle" /></span>
                                             <div class="m-l-20">
                                                 <h6 class="m-b-0 customer">Limpsy adam</h6>
+                                                <!--
                                                 <div class="font-10">
                                                     <a href="" class="text-success"><i class="fa fa-star"></i></a>
                                                     <a href="" class="text-success"><i class="fa fa-star"></i></a>
@@ -245,6 +250,7 @@
                                                     <a href="" class="text-success"><i class="fa fa-star"></i></a>
                                                     <a href="" class="text-muted"><i class="fa fa-star"></i></a>
                                                 </div>
+    -->
                                             </div>
                                         </div>
                                     </div>
@@ -266,31 +272,32 @@
                         <div class="col-md-12">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2637.2034760977285!2d2.440462565869501!3d48.62508822505884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e5e0a5d2f714cf%3A0x605689a3662a266!2s9%20Rue%20Charles%20Fourier%2C%2091000%20%C3%89vry-Courcouronnes!5e0!3m2!1sfr!2sfr!4v1606129863774!5m2!1sfr!2sfr" width="100%" height="450" frameborder="0" style="border:0"></iframe>
                         </div>
-                        <div class="container">
+                        <div class="container" id="contact">
                             <div class="spacer">
                                 <div class="row m-0">
                                     <div class="col-lg-8">
                                         <div class="contact-box p-r-40">
                                             <h4 class="title">Nous contacter</h4>
-                                            <form data-aos="fade-left" data-aos-duration="1200">
+                                            <form data-aos="fade-left" data-aos-duration="1200" method="post" action="send_mail.php">
                                                 <div class="row">
                                                     <div class="col-lg-6">
                                                         <div class="form-group m-t-15">
-                                                            <input class="form-control" type="text" placeholder="Nom">
+                                                            <input class="form-control" type="text" name="name" placeholder="Nom">
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-6">
                                                         <div class="form-group m-t-15">
-                                                            <input class="form-control" type="text" placeholder="Adresse mail">
+                                                            <input class="form-control" type="email" name="mail" placeholder="Adresse mail">
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="form-group m-t-15">
-                                                            <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+                                                            <textarea class="form-control" rows="3" name="message" placeholder="Message"></textarea>
+                                                            <input type="hidden" type="text" name="dontfillthis">
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
-                                                        <button type="submit" class="btn btn-danger-gradiant m-t-20 btn-arrow"><span>
+                                                        <button type="submit" name="send" value="send" class="btn btn-danger-gradiant m-t-20 btn-arrow"><span>
                                                                 ENVOYER <i class="ti-arrow-right"></i></span></button>
                                                     </div>
                                                 </div>
@@ -328,36 +335,12 @@
         <!-- ============================================================== -->
         <!-- End Page wrapper  -->
         <!-- ============================================================== -->
-        <?php include("footer.php"); ?>
+        <?php include("components/footer.php"); ?>
     </div>
     <!-- ============================================================== -->
     <!-- End Wrapper -->
     <!-- ============================================================== -->
-    <!-- ============================================================== -->
-    <!-- All Jquery -->
-    <!-- ============================================================== -->
-    <script src="js/jquery.min.js"></script>
-    <!-- Bootstrap popper Core JavaScript -->
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!--Custom JavaScript -->
-    <script src="js/custom.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <!-- ============================================================== -->
-    <!-- This page plugins -->
-    <!-- ============================================================== -->
-    <script type="text/javascript">
-        $('a').on('click', function(event) {
-            var $anchor = $(this);
-            $('html, body').stop().animate({
-                scrollTop: $($anchor.attr('href')).offset().top - 90
-            }, 1000);
-            event.preventDefault();
-            // code 
-
-        });
-        AOS.init();
-    </script>
+    <?php include("components/scripts.php"); ?>
 </body>
 
 </html>

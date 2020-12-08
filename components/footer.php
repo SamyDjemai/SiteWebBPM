@@ -19,14 +19,15 @@
             <div class="col-lg-3 col-md-6">
                 <h5 class="m-b-20">Social</h5>
                 <div class="round-social light">
-                    <a href="#" class="link"><i class="fa fa-facebook"></i></a>
-                    <a href="#" class="link"><i class="fa fa-twitter"></i></a>
-                    <a href="#" class="link"><i class="fa fa-youtube-play"></i></a>
-                    <a href="#" class="link"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/clubsono.bpm" class="link"><i class="fa fa-facebook"></i></a>
+                    <!-- <a href="#" class="link"><i class="fa fa-twitter"></i></a> 
+                    <a href="#" class="link"><i class="fa fa-youtube-play"></i></a> -->
+                    <a href="https://www.instagram.com/bpmclubsono/" class="link"><i class="fa fa-instagram"></i></a>
+                    <a href="https://soundcloud.com/bpm-club-sono" class="link"><i class="fa fa-soundcloud"></i></a>
                 </div>
             </div>
         </div>
-        <div class="f4-bottom-bar">
+        <div class=" f4-bottom-bar">
             <div class="row">
                 <div class="col-md-12">
                     <div class="d-flex font-14">

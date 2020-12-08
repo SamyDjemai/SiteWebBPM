@@ -34,7 +34,7 @@
                         </li>
                     </ul>
                     <div class="act-buttons">
-                        <a href="https://wrappixel.com/templates/wrapkit/" class="btn btn-danger-gradiant font-14">Nous contacter</a>
+                        <a href="/#contact" class="btn btn-danger-gradiant font-14">Nous contacter</a>
                     </div>
                 </div>
             </nav>
