@@ -7,7 +7,7 @@
             </div>
             <div class="col-lg-3 col-md-6 m-b-30">
                 <h5 class="m-b-20">Téléphone</h5>
-                <p>+33 6 70 74 33 66</p>
+                <p><a href="tel:+33670743366">+33 6 70 74 33 66</a></p>
             </div>
             <div class="col-lg-3 col-md-6 m-b-30">
                 <h5 class="m-b-20">Email</h5>
