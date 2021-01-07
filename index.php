@@ -179,15 +179,15 @@
                         </div>
                         <!-- Row  -->
                         <div class="row testi3 m-t-40">
-                            <!-- item --><span class="label label-inverse">Nouveau !</span>
-                            <h6 class="font-light m-b-30">“Cum sociis natoque penatibus et magnis dis
-                                parturient montes, nascetur ridiculus mus. Cras venene veliel vestibulum.”
-                            </h6>
-                            <div class="d-flex no-block align-items-center">
-                                <span class="thumb-img"><img src="images/testimonial/1.jpg" alt="wrapkit" class="circle" /></span>
-                                <div class="m-l-20">
-                                    <h6 class="m-b-0 customer">Bureau des élèves TMSP</h6>
-                                    <!--
+                            <!-- item -->
+                            <div class="col-lg-4 col-md-4" data-aos="fade-right">
+                                <div class="card card-shadow">
+                                    <div class="card-body">
+                                        <h6 class="font-light m-b-30">“Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras venene veliel vestibulum.”</h6>
+                                        <div class="d-flex no-block align-items-center">
+                                            <span class="thumb-img"><img src="images/testimonial/1.jpg" alt="wrapkit" class="circle" /></span>
+                                            <div class="m-l-20">
+                                                <h6 class="m-b-0 customer">Michelle Anderson</h6>
                                                 <div class="font-10">
                                                     <a href="" class="text-success"><i class="fa fa-star"></i></a>
                                                     <a href="" class="text-success"><i class="fa fa-star"></i></a>
@@ -195,144 +195,135 @@
                                                     <a href="" class="text-success"><i class="fa fa-star"></i></a>
                                                     <a href="" class="text-muted"><i class="fa fa-star"></i></a>
                                                 </div>
-                                                -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- item -->
-                <!-- item -->
-                <div class="col-lg-4 col-md-4" data-aos="fade-up">
-                    <div class="card card-shadow">
-                        <div class="card-body">
-                            <h6 class="font-light m-b-30">“Cum sociis natoque penatibus et magnis dis
-                                parturient montes, nascetur ridiculus mus. Cras venene veliel vestibulum.”
-                            </h6>
-                            <div class="d-flex no-block align-items-center">
-                                <span class="thumb-img"><img src="images/testimonial/2.jpg" alt="wrapkit" class="circle" /></span>
-                                <div class="m-l-20">
-                                    <h6 class="m-b-0 customer">Mark mesty</h6>
-                                    <!--
-                                                <div class="font-10">
-                                                    <a href="" class="text-success"><i class="fa fa-star"></i></a>
-                                                    <a href="" class="text-success"><i class="fa fa-star"></i></a>
-                                                    <a href="" class="text-success"><i class="fa fa-star"></i></a>
-                                                    <a href="" class="text-success"><i class="fa fa-star"></i></a>
-                                                    <a href="" class="text-muted"><i class="fa fa-star"></i></a>
-                                                </div>
-    -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- item -->
-                <!-- item -->
-                <div class="col-lg-4 col-md-4" data-aos="fade-left">
-                    <div class="card card-shadow">
-                        <div class="card-body">
-                            <h6 class="font-light m-b-30">“Cum sociis natoque penatibus et magnis dis
-                                parturient montes, nascetur ridiculus mus. Cras venene veliel vestibulum.”
-                            </h6>
-                            <div class="d-flex no-block align-items-center">
-                                <span class="thumb-img"><img src="images/testimonial/3.jpg" alt="wrapkit" class="circle" /></span>
-                                <div class="m-l-20">
-                                    <h6 class="m-b-0 customer">Limpsy adam</h6>
-                                    <!--
-                                                <div class="font-10">
-                                                    <a href="" class="text-success"><i class="fa fa-star"></i></a>
-                                                    <a href="" class="text-success"><i class="fa fa-star"></i></a>
-                                                    <a href="" class="text-success"><i class="fa fa-star"></i></a>
-                                                    <a href="" class="text-success"><i class="fa fa-star"></i></a>
-                                                    <a href="" class="text-muted"><i class="fa fa-star"></i></a>
-                                                </div>
-    -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- item -->
-
-            </div>
-        </div>
-    </div>
-    <!-- ============================================================== -->
-    <!-- End Testimonial 3  -->
-    <!-- ============================================================== -->
-    <!-- ============================================================== -->
-    <!-- Contact 1  -->
-    <!-- ============================================================== -->
-    <div class="contact1">
-        <div class="row">
-            <div class="col-md-12">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2637.2034760977285!2d2.440462565869501!3d48.62508822505884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e5e0a5d2f714cf%3A0x605689a3662a266!2s9%20Rue%20Charles%20Fourier%2C%2091000%20%C3%89vry-Courcouronnes!5e0!3m2!1sfr!2sfr!4v1606129863774!5m2!1sfr!2sfr" width="100%" height="450" frameborder="0" style="border:0"></iframe>
-            </div>
-            <div class="container" id="contact">
-                <div class="spacer">
-                    <div class="row m-0">
-                        <div class="col-lg-8">
-                            <div class="contact-box p-r-40">
-                                <h4 class="title">Nous contacter</h4>
-                                <form data-aos="fade-left" data-aos-duration="1200" method="post" action="send_mail.php">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="form-group m-t-15">
-                                                <input class="form-control" type="text" name="name" placeholder="Nom">
                                             </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="form-group m-t-15">
-                                                <input class="form-control" type="email" name="mail" placeholder="Adresse mail">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12">
-                                            <div class="form-group m-t-15">
-                                                <textarea class="form-control" rows="3" name="message" placeholder="Message"></textarea>
-                                                <input type="hidden" type="text" name="dontfillthis">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12">
-                                            <button type="submit" name="send" value="send" class="btn btn-danger-gradiant m-t-20 btn-arrow"><span>
-                                                    ENVOYER <i class="ti-arrow-right"></i></span></button>
                                         </div>
                                     </div>
-                                </form>
+                                </div>
                             </div>
+                            <!-- item -->
+                            <!-- item -->
+                            <div class="col-lg-4 col-md-4" data-aos="fade-up">
+                                <div class="card card-shadow">
+                                    <div class="card-body">
+                                        <h6 class="font-light m-b-30">“Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras venene veliel vestibulum.”</h6>
+                                        <div class="d-flex no-block align-items-center">
+                                            <span class="thumb-img"><img src="images/testimonial/2.jpg" alt="wrapkit" class="circle" /></span>
+                                            <div class="m-l-20">
+                                                <h6 class="m-b-0 customer">Mark mesty</h6>
+                                                <div class="font-10">
+                                                    <a href="" class="text-success"><i class="fa fa-star"></i></a>
+                                                    <a href="" class="text-success"><i class="fa fa-star"></i></a>
+                                                    <a href="" class="text-success"><i class="fa fa-star"></i></a>
+                                                    <a href="" class="text-success"><i class="fa fa-star"></i></a>
+                                                    <a href="" class="text-muted"><i class="fa fa-star"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- item -->
+                            <!-- item -->
+                            <div class="col-lg-4 col-md-4" data-aos="fade-left">
+                                <div class="card card-shadow">
+                                    <div class="card-body">
+                                        <h6 class="font-light m-b-30">“Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras venene veliel vestibulum.”</h6>
+                                        <div class="d-flex no-block align-items-center">
+                                            <span class="thumb-img"><img src="images/testimonial/3.jpg" alt="wrapkit" class="circle" /></span>
+                                            <div class="m-l-20">
+                                                <h6 class="m-b-0 customer">Limpsy adam</h6>
+                                                <div class="font-10">
+                                                    <a href="" class="text-success"><i class="fa fa-star"></i></a>
+                                                    <a href="" class="text-success"><i class="fa fa-star"></i></a>
+                                                    <a href="" class="text-success"><i class="fa fa-star"></i></a>
+                                                    <a href="" class="text-success"><i class="fa fa-star"></i></a>
+                                                    <a href="" class="text-muted"><i class="fa fa-star"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- item -->
+
                         </div>
-                        <div class="col-lg-4">
-                            <div class="detail-box p-40 bg-info" data-aos="fade-right" data-aos-duration="1200">
-                                <h2 class="text-white">BPM Club Sono</h2>
-                                <p class="text-white m-t-30 op-8"><strong>Président</strong> : <br>Valentin
-                                    Bailleul
-                                    <br> 06 70 74 33 66
-                                    <br>valentin.bailleul@telecom-sudparis.eu</p>
-                                <p class="text-white op-8">9 rue Charles Fourier
-                                    <br>91000 Evry-Courcouronnes</p>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Testimonial 3  -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Contact 1  -->
+                <!-- ============================================================== -->
+                <div class="contact1">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2637.2034760977285!2d2.440462565869501!3d48.62508822505884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e5e0a5d2f714cf%3A0x605689a3662a266!2s9%20Rue%20Charles%20Fourier%2C%2091000%20%C3%89vry-Courcouronnes!5e0!3m2!1sfr!2sfr!4v1606129863774!5m2!1sfr!2sfr" width="100%" height="450" frameborder="0" style="border:0"></iframe>
+                        </div>
+                        <div class="container" id="contact">
+                            <div class="spacer">
+                                <div class="row m-0">
+                                    <div class="col-lg-8">
+                                        <div class="contact-box p-r-40">
+                                            <h4 class="title">Nous contacter</h4>
+                                            <form data-aos="fade-left" data-aos-duration="1200" method="post" action="send_mail.php">
+                                                <div class="row">
+                                                    <div class="col-lg-6">
+                                                        <div class="form-group m-t-15">
+                                                            <input class="form-control" type="text" name="name" placeholder="Nom">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div class="form-group m-t-15">
+                                                            <input class="form-control" type="email" name="mail" placeholder="Adresse mail">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12">
+                                                        <div class="form-group m-t-15">
+                                                            <textarea class="form-control" rows="3" name="message" placeholder="Message"></textarea>
+                                                            <input type="hidden" type="text" name="dontfillthis">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12">
+                                                        <button type="submit" name="send" value="send" class="btn btn-danger-gradiant m-t-20 btn-arrow"><span>
+                                                                ENVOYER <i class="ti-arrow-right"></i></span></button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="detail-box p-40 bg-info" data-aos="fade-right" data-aos-duration="1200">
+                                            <h2 class="text-white">BPM Club Sono</h2>
+                                            <p class="text-white m-t-30 op-8"><strong>Président</strong> : <br>Valentin
+                                                Bailleul
+                                                <br> 06 70 74 33 66
+                                                <br>valentin.bailleul@telecom-sudparis.eu</p>
+                                            <p class="text-white op-8">9 rue Charles Fourier
+                                                <br>91000 Evry-Courcouronnes</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!-- ============================================================== -->
+                <!-- End Contact 1  -->
+                <!-- ============================================================== -->
             </div>
+            <!-- ============================================================== -->
+            <!-- End Container fluid  -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Back to top -->
+            <!-- ============================================================== -->
+            <a class="bt-top btn btn-circle btn-lg btn-info" href="#top"><i class="ti-arrow-up"></i></a>
         </div>
-    </div>
-    <!-- ============================================================== -->
-    <!-- End Contact 1  -->
-    <!-- ============================================================== -->
-    </div>
-    <!-- ============================================================== -->
-    <!-- End Container fluid  -->
-    <!-- ============================================================== -->
-    <!-- ============================================================== -->
-    <!-- Back to top -->
-    <!-- ============================================================== -->
-    <a class="bt-top btn btn-circle btn-lg btn-info" href="#top"><i class="ti-arrow-up"></i></a>
-    </div>
-    <!-- ============================================================== -->
-    <!-- End Page wrapper  -->
-    <!-- ============================================================== -->
-    <?php include("components/footer.php"); ?>
+        <!-- ============================================================== -->
+        <!-- End Page wrapper  -->
+        <!-- ============================================================== -->
+        <?php include("components/footer.php"); ?>
     </div>
     <!-- ============================================================== -->
     <!-- End Wrapper -->
