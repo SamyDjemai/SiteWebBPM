@@ -97,7 +97,7 @@
                             <!-- Column -->
                             <div class="col-md-4">
                                 <div class="card card-shadow" data-aos="flip-left" data-aos-duration="1200">
-                                    <a href="#" class="img-ho"><img class="card-img-top" src="images/portfolio/img1.jpg" alt="wrappixel kit" /></a>
+                                    <a  class="img-ho" style="cursor: default"><img class="card-img-top img-ho" src="images/portfolio/img1.jpg" alt="wrappixel kit" /></a>
                                     <div class="card-body">
                                         <h5 class="font-medium m-b-0">Son</h5>
                                         <p class="m-b-0 font-14">Des enceintes au platine, laissez BPM s'occuper de la
@@ -108,7 +108,7 @@
                             <!-- Column -->
                             <div class="col-md-4">
                                 <div class="card card-shadow" data-aos="flip-up" data-aos-duration="1200">
-                                    <a href="#" class="img-ho"><img class="card-img-top" src="images/portfolio/img2.jpg" alt="wrappixel kit" /></a>
+                                    <a  class="img-ho" style="cursor: default"><img class="card-img-top" src="images/portfolio/img2.jpg" alt="wrappixel kit" /></a>
                                     <div class="card-body">
                                         <h5 class="font-medium m-b-0">Lumière</h5>
                                         <p class="m-b-0 font-14">Impressionnez vos convives avec des lumières adaptées à
@@ -119,7 +119,7 @@
                             <!-- Column -->
                             <div class="col-md-4">
                                 <div class="card card-shadow" data-aos="flip-right" data-aos-duration="1200">
-                                    <a href="#" class="img-ho"><img class="card-img-top" src="images/portfolio/img3.jpg" alt="wrappixel kit" /></a>
+                                   <a  class="img-ho" style="cursor: default"><img class="card-img-top" src="images/portfolio/img3.jpg" alt="wrappixel kit" /></a>
                                     <div class="card-body">
                                         <h5 class="font-medium m-b-0">Structure</h5>
                                         <p class="m-b-0 font-14">BPM propose des installations fiables et adaptées à
@@ -130,7 +130,7 @@
                             <!-- Column -->
                             <div class="col-md-4">
                                 <div class="card card-shadow" data-aos="flip-left" data-aos-duration="1200">
-                                    <a href="#" class="img-ho"><img class="card-img-top" src="images/portfolio/img4.jpg" alt="wrappixel kit" /></a>
+                                    <a  class="img-ho" style="cursor: default"><img class="card-img-top" src="images/portfolio/img4.jpg" alt="wrappixel kit" /></a>
                                     <div class="card-body">
                                         <h5 class="font-medium m-b-0">Prestations</h5>
                                         <p class="m-b-0 font-14">Nos DJs et experts en lights sauront répondre à vos
@@ -141,7 +141,7 @@
                             <!-- Column -->
                             <div class="col-md-4">
                                 <div class="card card-shadow" data-aos="flip-up" data-aos-duration="1200">
-                                    <a href="#" class="img-ho"><img class="card-img-top" src="images/portfolio/img5.jpg" alt="wrappixel kit" /></a>
+                                    <a  class="img-ho" style="cursor: default"><img class="card-img-top" src="images/portfolio/img5.jpg" alt="wrappixel kit" /></a>
                                     <div class="card-body">
                                         <h5 class="font-medium m-b-0">Vidéo</h5>
                                         <p class="m-b-0 font-14">Visuels, mappings, aftermovies... De quoi faire
@@ -152,7 +152,7 @@
                             <!-- Column -->
                             <div class="col-md-4">
                                 <div class="card card-shadow" data-aos="flip-right" data-aos-duration="1200">
-                                    <a href="#" class="img-ho"><img class="card-img-top" src="images/portfolio/img6.jpg" alt="wrappixel kit" /></a>
+                                    <a  class="img-ho" style="cursor: default"><img class="card-img-top" src="images/portfolio/img6.jpg" alt="wrappixel kit" /></a>
                                     <div class="card-body">
                                         <h5 class="font-medium m-b-0">Production</h5>
                                         <p class="m-b-0 font-14">Besoin d'une instru ou d'une compo originale ? Le pôle
@@ -167,13 +167,33 @@
                 <!-- End Portfolio 1  -->
                 <!-- ============================================================== -->
                 <!-- ============================================================== -->
+                <!-- Les soirées qu'on organise  -->
+                <!-- ============================================================== -->
+                <div class="bg-dark">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-md-7">
+                                <h1 class="title text-white text-center">Jusqu'au bout de la nuit</h1>
+                                <h6 class="subtitle text-center">Des soirées étudiantes, aux concerts, nous savons répondre à tout type de demande.</h6>
+                            </div>
+                            
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Les soirées qu'on organise  -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
                 <!-- Testimonial 3  -->
                 <!-- ============================================================== -->
                 <div class="testimonial3 spacer bg-light">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-md-7 text-center">
-                                <h2 class="title">Des clients satisfaits</h2>
+                                
+                                <h1 class="title font-bold ">Des clients satisfaits</h1>
                                 <h6 class="subtitle">Voici quelques témoignages de clients pour lesquels nous avons réalisé des prestations.</h6>
                             </div>
                         </div>
