@@ -55,7 +55,7 @@
                                 <h4 class="subtitle font-light">Découvrez les évènements que nous organisons.
                                 </h4>
                                 <a href="#learn-more" class="btn btn-outline-light m-r-20 btn-md m-t-30 font-14">En savoir plus</a>
-                                <a href="#contact" class="btn btn-md m-t-30 btn-danger-gradiant font-14">Nous contacter</a>
+                                <a href="/#contact" class="btn btn-md m-t-30 btn-danger-gradiant font-14">Nous contacter</a>
                             </div>
                             <!-- Column -->
                         </div>
@@ -64,18 +64,18 @@
                 <!-- ============================================================== -->
                 <!-- End Static Slider 10  -->
                 <!-- ============================================================== -->
-            <div class="container">
+                <div class="container">
                     <div class="row">
                         <div class="col-md-10 mt-5">
                             <div class="card card-shadow">
                                 <div class="card-body">
                                     <h3 class="card-title">Pas d'évènements à venir</h3>
                                     <p class="card-text">Contactez-nous pour organiser votre évènement</p>
-                                    <a href="#" class="btn btn-success">Nous contacter</a>
+                                    <a href="/#contact" class="btn btn-success">Nous contacter</a>
                                 </div>
                             </div>
                         </div>
-                     
+
                     </div>
                 </div>
 
